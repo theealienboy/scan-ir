@@ -8,5 +8,5 @@ from datetime import datetime
 subprocess.call('clear', shell=True)
 
 # Cuir teacs anseo
-remoteServer    = raw_input("Riomhaire iargúlta: ")
-remoteServerIP  = socket.gethostbyname(seoladh ip)
+remoteServer    = raw_input("Riomhaire iargúlta:")
+remoteServerIP  = socket.gethostbyname(remoteServer)
