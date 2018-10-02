@@ -8,10 +8,10 @@ from datetime import datetime
 subprocess.call('clear', shell=True)
 
 # Cuir teacs anseo
-remoteServer    = raw_input("Riomhaire iargúlta:")
+remoteServer    = input("Riomhaire iargúlta: ")
 remoteServerIP  = socket.gethostbyname(remoteServer)
 
 # priontáil bratach deas
-print "-" * 60
-print "Fan socind amhain", remoteServerIP
-print "-" * 60
+print ("-" * 60)
+print ("Fan socind amhain"), remoteServerIP
+print ("-") * 60
