@@ -4,5 +4,5 @@ import subprocess
 import sys
 from datetime import datetime
 
-# Clear the screen
+# glan suas an teacs
 subprocess.call('clear', shell=True)
