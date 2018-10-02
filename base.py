@@ -9,4 +9,4 @@ subprocess.call('clear', shell=True)
 
 # Cuir teacs anseo
 remoteServer    = raw_input("Riomhaire iargúlta: ")
-remoteServerIP  = socket.gethostbyname(seoladh IP)
+remoteServerIP  = socket.gethostbyname(seoladh ip)
