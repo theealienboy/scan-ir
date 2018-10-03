@@ -1,2 +1,2 @@
 # scan-ir
-scanóir ríomhairí
+scanóir ríomhairí as Gaeilge
