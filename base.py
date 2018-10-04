@@ -7,15 +7,19 @@ from datetime import datetime
 # Clear the screen
 subprocess.call('clear', shell=True)
 
-#adding an initial ping
-s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  #Create a TCP/IP socket
-server_ip = raw_input(‘Enter server IP : ‘)
-rep = os.system(‘ping ‘ + server_ip)
-if rep == 0:
-print ‘n n server is up n n’
-else:
-print ‘server is down’
+import subprocess
 
+
+host = raw_input ("Ainm : ")
+
+ping = subprocess.Popen(
+    ["ping", "-n", "4", host],
+    stdout = subprocess.PIPE,
+    stderr = subprocess.PIPE
+)
+
+out, error = ping.communicate()
+print out
 
 
 # Ask for input
