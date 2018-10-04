@@ -10,7 +10,7 @@ subprocess.call('clear', shell=True)
 import subprocess
 
 
-host = raw_input ("Ainm : ")
+host = raw_input ("An bhfuil an sprioc beo?  : ")
 
 ping = subprocess.Popen(
     ["ping", "-n", "4", host],
