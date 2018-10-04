@@ -41,7 +41,7 @@ t1 = datetime.now()
 #for port in range(0,65535):
 
 try:
-    for port in range(0,65535):  
+    for port in range(0,1023):  
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         result = sock.connect_ex((remoteServerIP, port))
         if result == 0:
