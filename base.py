@@ -38,7 +38,7 @@ t1 = datetime.now()
 
 # We also put in some error handling for catching errors
 
-#for port in range(0,65535):
+#for port in range(0,1023):
 
 try:
     for port in range(0,1023):  
@@ -60,13 +60,13 @@ except socket.error:
     print "Tá fadhbanna againn"
     sys.exit()
 
-# Checking the time again
+# An t-am
 t2 = datetime.now()
 
 # Calculates the difference of time, to see how long it took to run the script
 total =  t2 - t1
 
-# Printing the information to screen
+# Priontáileolas
 print 'Scanning Completed in: ', total
 
 
