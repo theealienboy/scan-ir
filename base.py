@@ -66,7 +66,7 @@ t2 = datetime.now()
 # Calculates the difference of time, to see how long it took to run the script
 total =  t2 - t1
 
-# Priontáileolas
+# Priontáileolas anois
 print 'Scanning Completed in: ', total
 
 
