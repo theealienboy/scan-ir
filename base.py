@@ -26,7 +26,7 @@ print out
 remoteServer    = raw_input("Riomhaire iargúlta: ")
 remoteServerIP  = socket.gethostbyname(remoteServer)
 
-# Print a nice banner with information on which host we are about to scan
+# Banner deas
 print "-" * 60
 print "Fan socind amhain, le do thoil", remoteServerIP
 print "-" * 60
@@ -34,9 +34,9 @@ print "-" * 60
 # Check what time the scan started
 t1 = datetime.now()
 
-# Using the range function to specify ports (here it will scans all ports between 1 and 1024)
+# Cén ports (Anseo gach port idir 1 and 1024)
 
-# We also put in some error handling for catching errors
+# Rud error
 
 #for port in range(0,1023):
 
